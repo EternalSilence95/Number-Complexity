@@ -43,7 +43,7 @@ def NC(n, iter):
 NC(n, iter) 
 xlabel('time')    
 ylabel('value')
-plot(xresult, yresult)
+plot(xresult, yresult, marker='o')
 show()        
     
     
