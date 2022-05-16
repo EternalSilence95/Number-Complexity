@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 12 17:04:35 2022
-
-@author: saqo2
-"""
 
 # -*- coding: utf-8 -*-
 """
@@ -17,8 +11,8 @@ import math
 from pylab import *
 n = int(input('Enter some natural number '))
 iter = int(input('Enter number of itrations '))
-xresult = []
-yresult = []
+xresult = [0]
+yresult = [n]
 def NC(n, iter):
     if(iter == 0):
         print(n)
@@ -36,13 +30,13 @@ def NC(n, iter):
             print('Relative complexity is ',sum(j))
             print()
             print('Complexity is ',a)
-            xresult.append(m)
-            yresult.append(a)
             n = a
             m = m + 1
-NC(n, iter) 
+            xresult.append(m)
+            yresult.append(a)
+NC(n, iter)  
 xlabel('time')    
-ylabel('value')
+ylabel('value')  
 plot(xresult, yresult, marker='o')
 show()        
     
