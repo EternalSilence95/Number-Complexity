@@ -40,7 +40,9 @@ def NC(n, iter):
             yresult.append(a)
             n = a
             m = m + 1
-NC(n, iter)        
+NC(n, iter) 
+xlabel('time')    
+ylabel('value')
 plot(xresult, yresult)
 show()        
     
