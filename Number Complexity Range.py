@@ -10,6 +10,7 @@ import math
 from pylab import *
 n = int(input('Enter some natural number '))
 range = int(input('Enter the range '))
+print()
 l = n + range
 xresult = []
 yresult = []
