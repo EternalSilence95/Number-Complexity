@@ -16,11 +16,13 @@ yresult = []
 def NC(n, range):
     while n < l:
         i = primes.factors(n)
+        print(n,' has factors ', i)
         j = []
         while len(i) > 0:
             k = 1/i.pop()
             j.append(k)
         print(n,' has relative Complexity ',sum(j))
+        print()
         xresult.append(n)
         yresult.append(sum(j))
         n = n + 1
