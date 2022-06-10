@@ -29,6 +29,7 @@ def NC(n, range):
         yresult.append(a)
         n = n + 1
 NC(n, range)
+figure(dpi=1200)
 plot(xresult, yresult, marker='o')
 show()     
     
