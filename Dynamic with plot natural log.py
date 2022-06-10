@@ -40,6 +40,7 @@ def NC(n, iter):
             xresult.append(m)
             yresult.append(l)
 NC(n, iter)  
+figure(dpi=1200)
 xlabel('time')    
 ylabel('ln value')  
 plot(xresult, yresult, marker='o')
