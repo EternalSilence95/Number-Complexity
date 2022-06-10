@@ -13,6 +13,7 @@ n = int(input('Enter some natural number '))
 n1 = n
 iter = int(input('Enter number of itrations '))
 r = int(input('Enter range '))
+figure(dpi=1200)
 def NC(n, iter):
     global xresult, yresult
     xresult = [0]
