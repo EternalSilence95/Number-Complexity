@@ -9,6 +9,7 @@ Created on Thu May 12 16:02:07 2022
 from primePy import primes
 import math
 from pylab import *
+from fractions import Fraction
 n = int(input('Enter some natural number '))
 iter = int(input('Enter number of itrations '))
 xresult = [0]
@@ -27,11 +28,11 @@ def NC(n, iter):
             print('factors of ', n,' are ' , i)
             j = []
             while len(i) > 0:
-                k = 1/i.pop()
+                k = Fraction(1, i.pop())
                 j.append(k)
-            a = round(n * sum(j))
+            a = (n * sum(j))
             l = math.log(a)
-            print('Relative complexity is ',sum(j))
+            print('Relative complexity is ',sum(j), '=', float(sum(j)))
             print('Complexity is ',a)
             print('ln complexity is ', l)
             print()
