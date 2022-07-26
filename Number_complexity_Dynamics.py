@@ -12,7 +12,7 @@ else:
     m = 0
     while m < iter:
         i = primes.factors(n)
-        print('factors are ', i) 
+        print('factors of ', n, 'are ', i) 
         j = []
         while len(i) > 0:
             k = Fraction(1, i.pop())
