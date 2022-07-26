@@ -29,7 +29,7 @@ def NC(n, iter):
             while len(i) > 0:
                 k = Fraction(1, i.pop())
                 j.append(k)
-            a = round(n * sum(j))
+            a = (n * sum(j))
             print('Relative complexity is ',sum(j), '=' float(sum(j)))
             print('Complexity is ',a)
             print()
