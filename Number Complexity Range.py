@@ -8,6 +8,7 @@ Created on Thu May 12 16:02:07 2022
 from primePy import primes
 import math
 from pylab import *
+from fractions import Fraction
 n = int(input('Enter some natural number '))
 range = int(input('Enter the range '))
 print()
@@ -20,9 +21,9 @@ def NC(n, range):
         print(n,' has factors ',i)
         j = []
         while len(i) > 0:
-            k = 1/i.pop()
+            k = Fraction(1, i.pop())
             j.append(k)
-        a = round(n * sum(j))
+        a = (n * sum(j))
         print(n,' has Complexity ',a)
         print()
         xresult.append(n)
