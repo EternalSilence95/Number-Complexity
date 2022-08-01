@@ -14,7 +14,7 @@ while True:
    n = input('Enter some natural number ')
    if n == 'stop': break
    n1 = n
-   iter = input('Enter number of itrations ')
+   iter = input('Enter number of iterations ')
    r = input('Enter range ')
    # figure(dpi=1200)
    def NC(n, iter):
