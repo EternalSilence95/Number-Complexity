@@ -4,7 +4,7 @@ from fractions import Fraction
 while True:
    n = input('Enter some natural number ')
    if n == 'stop': break
-   iter = input('Enter number of itrations ')
+   iter = input('Enter number of iterations ')
    try:
       v = int(n)
       s = int(iter)
