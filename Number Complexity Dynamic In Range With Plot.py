@@ -49,7 +49,7 @@ while True:
    ylabel('Value')   
    try:      
       for n in range(int(n1), int(n1)+int(r), 1):
-          NC(n, iter)
+          NC(n, i1)
           plot(xresult, yresult, marker='o')
       show()
    except:
