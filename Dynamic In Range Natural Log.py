@@ -12,14 +12,14 @@ from pylab import *
 from fractions import Fraction
 n = int(input('Enter some natural number '))
 n1 = n
-iter = int(input('Enter number of itrations '))
+i1 = int(input('Enter number of itrations '))
 r = int(input('Enter range '))
 figure(dpi=1200)
-def NC(n, iter):
+def NC(n, i1):
     global xresult, yresult
     xresult = [0]
     yresult = [math.log(n)]
-    if(iter == 0):
+    if(i1 == 0):
         print(n)
     else:
         print()
@@ -27,7 +27,7 @@ def NC(n, iter):
         print('ln ',n,' is ',math.log(n))
         print()
         m = 0
-        while m < iter:
+        while m < i1:
             i = primes.factors(n)
             print('factors of ',n,' are ', i)
             j = []
@@ -46,7 +46,7 @@ def NC(n, iter):
 xlabel('Time')
 ylabel('Value')            
 for n in range(n1, n1+r, 1):
-    NC(n, iter)
+    NC(n, i1)
     plot(xresult, yresult, marker='o')        
 show()    
     
