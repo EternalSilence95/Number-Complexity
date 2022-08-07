@@ -50,7 +50,7 @@ while True:
    c = 0  
    try:      
       for n in range(int(n1), int(n1)+int(r), 1):
-          NC(n, iter)
+          NC(n, i1)
           if yresult[-1] == 1:
              c = c + 1
           plot(xresult, yresult, marker='o')
