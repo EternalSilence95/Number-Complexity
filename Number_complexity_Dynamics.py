@@ -4,10 +4,10 @@ from fractions import Fraction
 while True:
    n = input('Enter some natural number ')
    if n == 'stop': break
-   iter = input('Enter number of iterations ')
+   i1 = input('Enter number of iterations ')
    try:
       v = int(n)
-      s = int(iter)
+      s = int(i1)
       if s == 0:
           print(n)
       else:
