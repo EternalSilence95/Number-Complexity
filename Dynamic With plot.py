@@ -14,7 +14,7 @@ n = int(input('Enter some natural number '))
 i1 = int(input('Enter number of itrations '))
 xresult = [0]
 yresult = [n]
-def NC(n, iter):
+def NC(n, i1):
     if(i1 == 0):
         print(n)
     else:
