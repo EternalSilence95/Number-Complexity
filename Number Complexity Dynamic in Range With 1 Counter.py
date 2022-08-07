@@ -17,7 +17,7 @@ while True:
    i1 = input('Enter number of iterations ')
    r = input('Enter range ')
    # figure(dpi=1200)
-   def NC(n, iter):
+   def NC(n, i1):
        n2 = int(n)
        i2 = int(i1)
        global xresult, yresult
