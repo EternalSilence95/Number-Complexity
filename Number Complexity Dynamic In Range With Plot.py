@@ -14,23 +14,23 @@ while True:
    n = input('Enter some natural number ')
    if n == 'stop': break
    n1 = n
-   iter = input('Enter number of iterations ')
+   i1 = input('Enter number of iterations ')
    r = input('Enter range ')
    # figure(dpi=1200)
    def NC(n, iter):
        n2 = int(n)
-       i1 = int(iter)
+       i2 = int(i1)
        global xresult, yresult
        xresult = [0]
        yresult = [n]
-       if(iter == 0):
+       if(i2 == 0):
            print(n2)
        else:
            print()
            print('First number is ',n2)
            print()
            m = 0
-           while m < i1:
+           while m < i2:
                i = primes.factors(n2)
                print('factors of ',n2,' are ', i)
                j = []
