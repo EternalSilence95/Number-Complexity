@@ -28,6 +28,8 @@ def NC(n, range):
         yresult.append(sum(j))
         n = n + 1
 NC(n, range)
+M = sum(yresult)/len(yresult)
+print('The mean in this range is ', float(M))
 figure(dpi=1200)
 plot(xresult, yresult, marker='o')
 show()     
