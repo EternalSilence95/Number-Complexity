@@ -30,7 +30,7 @@ def NC(n, i1):
                 k = Fraction(1, i.pop())
                 j.append(k)
             a = int(n * sum(j))
-            print('Relative complexity is ',sum(j), '=' float(sum(j)))
+            print('Relative complexity is ',sum(j), '=', float(sum(j)))
             print('Complexity is ',a)
             print()
             n = a
