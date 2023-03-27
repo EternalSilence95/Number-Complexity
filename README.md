@@ -12,3 +12,5 @@ I also built a dynamical system by again applying complexity function on the out
 For some initial conditions applying complexity function again and again results in convergence to 1
 for example 18 -> 21 -> 10 -> 7 -> 1 -> 1
 and for some others it goes to infinity, for example 8 -> 12 -> 16 -> 32 -> 80 ->...
+
+In future I hope to generalize this for at least rational and real numbers.
