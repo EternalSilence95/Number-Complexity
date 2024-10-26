@@ -1,7 +1,6 @@
 # Number-Complexity
 
-I generalized the idea of prime numbers, by defining a 'complexity' for natural numbers, with the hope,
-that it will tell something about distribution of primes.
+I generalized the idea of prime numbers, by defining a 'complexity' for natural numbers.
 
 Complexity of n = n*(1/p1 + 1/p2 +...+1/pk), 
 Relative Complexity of n = (1/p1 + 1/p2 +...+1/pk),
